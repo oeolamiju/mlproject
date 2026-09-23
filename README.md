@@ -1,5 +1,3 @@
-## End to end ML project
-
 # End-to-End Machine Learning Project — Student Performance Predictor
 
 Predicting mathematics scores from demographic and prior-performance features, deployed as a live Flask web application on Azure App Service.
