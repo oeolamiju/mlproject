@@ -136,20 +136,6 @@ The application is deployed to **Azure App Service** in the UK West region.
 
 ---
 
-## What I would extend at production scale
-
-For a system serving real users at scale, the next steps would include:
-
-- **Model registry** (MLflow or Azure ML) instead of pickled artifacts in a folder
-- **Monitoring and alerting** on prediction distributions, latency, and error rates
-- **Automated retraining triggers** based on drift detection or scheduled cadence
-- **Containerisation** (Docker) for consistent runtime across environments
-- **CI/CD** with automated testing on the transformation and prediction pipelines
-- **Input validation and rate limiting** at the API layer
-- **A/B testing infrastructure** for controlled rollout of new model versions
-
----
-
 ## Project structure
 
 ```
