@@ -3,9 +3,6 @@
 Predicting mathematics scores from demographic and prior-performance features, deployed as a live Flask web application on Azure App Service.
 
 **Live demo:** [studentscoreprediction-grh2cgemf8gfayaj.ukwest-01.azurewebsites.net/predictdata](https://studentscoreprediction-grh2cgemf8gfayaj.ukwest-01.azurewebsites.net/predictdata)
-
-> Free-tier Azure App Services spin down after ~20 minutes idle. First request after a cold start takes 30-60 seconds; subsequent requests are near-instant.
-
 ---
 
 ## What this project is
